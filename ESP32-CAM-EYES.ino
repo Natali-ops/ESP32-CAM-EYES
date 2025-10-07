@@ -355,11 +355,11 @@ int find_light_source(camera_fb_t* fb, light_source_result_t* result) {
   // Horizontal line
   /*
   for (int i = 0; i < width; i++) {
-    pixels[res_y * width + i] = 0xF800; // Red in RGB565 format
+    pixels[res_y * width + i] = 0xF800;
   }
   // Vertical line
   for (int i = 0; i < height; i++) {
-    pixels[i * width + res_x] = 0xF800; // Red in RGB565 format
+    pixels[i * width + res_x] = 0xF800;
   }
   */
 
@@ -384,8 +384,8 @@ void loop() {
     } else {
       Serial.println("Wrong Format");
     }
-    //Uncomment the following line and comment out the right drawEye call below in order
-    //to draw the framebuffer to the right screen.
+    // Uncomment the following line and comment out the right drawEye call below in order
+    // to draw the framebuffer to the right screen.
     //drawCameraImage(tft_R, fb);
     // Return the frame buffer to be reused.
     esp_camera_fb_return(fb);
